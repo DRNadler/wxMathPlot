@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['wxmathplot_0',['wxMathPlot',['../md_README.html',1,'']]]
+  ['deprecated_20list_0',['Deprecated List',['../deprecated.html',1,'']]]
 ];
