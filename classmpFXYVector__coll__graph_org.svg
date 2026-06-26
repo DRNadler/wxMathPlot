@@ -130,7 +130,7 @@
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="345,-242 283,-242 283,-223 345,-223 345,-242"/>
+<polygon fill="white" stroke="#666666" points="345,-242 283,-242 283,-223 345,-223 345,-242"/>
 <text text-anchor="middle" x="314" y="-230" font-family="Helvetica,sans-Serif" font-size="10.00">wxObject</text>
 </a>
 </g>
@@ -167,7 +167,7 @@
 <g id="Node000007" class="node">
 <title>Node7</title>
 <g id="a_Node000007"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="262,-341 192,-341 192,-322 262,-322 262,-341"/>
+<polygon fill="white" stroke="#666666" points="262,-341 192,-341 192,-322 262,-322 262,-341"/>
 <text text-anchor="middle" x="227" y="-329" font-family="Helvetica,sans-Serif" font-size="10.00">wxWindow</text>
 </a>
 </g>

@@ -8,5 +8,6 @@ var searchData=
   ['plot_5',['Plot',['../classmpLayer.html#a13fa2fdda9c7db573c498a6d1a6486a3',1,'mpLayer']]],
   ['pointisinside_6',['pointisinside',['../structmpRange.html#a27cc41d0b1bd61c79e1a0d266bb688ea',1,'mpRange::PointIsInside()'],['../structmpFloatRect.html#a94bbb33029c25d836e9aba2c1f613b71',1,'mpFloatRect::PointIsInside()'],['../structmpFloatRectSimple.html#aba11f78c3137892cd9952dce620d6adc',1,'mpFloatRectSimple::PointIsInside()']]],
   ['pointisinsidebound_7',['PointIsInsideBound',['../classmpWindow.html#a0553b676aa3e87ecf838b9adda8be40f',1,'mpWindow']]],
-  ['pos_8',['pos',['../structmpAxisData.html#a182c96aad9867348cb76018ed99ae476',1,'mpAxisData']]]
+  ['popup_5fstring_8',['Popup_string',['../mathplot_8cpp.html#a84f8cea2c2a73722d010ae64a1b468f1',1,'mathplot.cpp']]],
+  ['pos_9',['pos',['../structmpAxisData.html#a182c96aad9867348cb76018ed99ae476',1,'mpAxisData']]]
 ];

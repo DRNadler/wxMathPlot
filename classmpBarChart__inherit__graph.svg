@@ -85,7 +85,7 @@
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="68.5,-239 6.5,-239 6.5,-220 68.5,-220 68.5,-239"/>
+<polygon fill="white" stroke="#666666" points="68.5,-239 6.5,-239 6.5,-220 68.5,-220 68.5,-239"/>
 <text text-anchor="middle" x="37.5" y="-227" font-family="Helvetica,sans-Serif" font-size="10.00">wxObject</text>
 </a>
 </g>

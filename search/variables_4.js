@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['kaxisextraspace_0',['kAxisExtraSpace',['../classmpScale.html#a0856a7c7c2c258d953b42c33c74596b9',1,'mpScale']]],
-  ['kticksize_1',['kTickSize',['../classmpScale.html#a2cef473832d5208bd184563bdc87f747',1,'mpScale']]]
+  ['endpx_0',['endPx',['../structmpRect.html#a749c8007812fd833b49bc1ea03c7688e',1,'mpRect']]],
+  ['endpy_1',['endPy',['../structmpRect.html#a24c35ef6e47e497fbb2bd0baec448a6d',1,'mpRect']]],
+  ['epsilonscale_2',['EpsilonScale',['../classmpScale.html#aad18a2e5af548f74f67d964d5955cf61',1,'mpScale']]]
 ];

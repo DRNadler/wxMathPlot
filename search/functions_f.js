@@ -91,7 +91,7 @@ var searchData=
   ['settractable_88',['SetTractable',['../classmpLayer.html#ab86b76a7f774d2c58679c4167277bb2f',1,'mpLayer']]],
   ['setvalue_89',['SetValue',['../classmpLine.html#a4d4d8c054f6b082d2714ef983ad685a1',1,'mpLine']]],
   ['setviewmode_90',['SetViewMode',['../classmpFXY.html#a044e36738aa752cff8f84804cca144a7',1,'mpFXY']]],
-  ['setvisible_91',['setvisible',['../classmpInfoLayer.html#a7c5aaad159b6173071749765906d040c',1,'mpInfoLayer::SetVisible()'],['../classmpLayer.html#ac9b4db5e38ba086e548170e0bd2142c8',1,'mpLayer::SetVisible()']]],
+  ['setvisible_91',['setvisible',['../classmpLayer.html#ac9b4db5e38ba086e548170e0bd2142c8',1,'mpLayer::SetVisible()'],['../classmpInfoLayer.html#a7c5aaad159b6173071749765906d040c',1,'mpInfoLayer::SetVisible()']]],
   ['setwildcard_92',['SetWildcard',['../classmpWindow.html#a597f1f0b8599d2619ee1a1ab1541c72a',1,'mpWindow']]],
   ['setwindow_93',['SetWindow',['../classmpLayer.html#ae6a6ab436a19fc1f9703338aeb45a9b3',1,'mpLayer']]],
   ['setxvalue_94',['SetXValue',['../classmpVerticalLine.html#aeb0acd9401dc6432093f60ffbbcdaa1b',1,'mpVerticalLine']]],
@@ -102,5 +102,6 @@ var searchData=
   ['show_99',['show',['../classmpInfoCoords.html#a54e302b4134365dbc81b36ee0876a742',1,'mpInfoCoords::Show()'],['../classmpMagnet.html#a857dd02950f3ad2750ae5b9af12a58c2',1,'mpMagnet::Show()']]],
   ['showdraggedseries_100',['ShowDraggedSeries',['../classmpInfoLegend.html#a38ab6b7848f32cd1e327478487b6018d',1,'mpInfoLegend']]],
   ['showgrids_101',['ShowGrids',['../classmpScale.html#a813865bb073c0c286206137c72de38c4',1,'mpScale']]],
-  ['showticks_102',['ShowTicks',['../classmpScale.html#abd966e06d8af148b2c40a37eb96b4870',1,'mpScale']]]
+  ['showticks_102',['ShowTicks',['../classmpScale.html#abd966e06d8af148b2c40a37eb96b4870',1,'mpScale']]],
+  ['sincos_103',['SinCos',['../mathplot_8cpp.html#ae757556a276521043c1b6c753e3eb23f',1,'mathplot.cpp']]]
 ];

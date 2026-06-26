@@ -16,13 +16,14 @@ var searchData=
   ['doposition_13',['DoPosition',['../classMathPlotConfigSettings.html#a56142bd87fcdaabaf3ef1721e95a8a31',1,'MathPlotConfigSettings']]],
   ['dorecursivesearch_14',['DoRecursiveSearch',['../classMathPlotConfigSettings.html#a011c3cb6213adc526a99adc80d88892c',1,'MathPlotConfigSettings']]],
   ['doscrollcalc_15',['DoScrollCalc',['../classmpWindow.html#af492d4e2693e049a69d5b4b42df4d2ec',1,'mpWindow']]],
-  ['dozoomxcalc_16',['DoZoomXCalc',['../classmpWindow.html#a00a1f98272963e2880b9b77e417912a8',1,'mpWindow']]],
-  ['dozoomycalc_17',['DoZoomYCalc',['../classmpWindow.html#acec6d0ea8eabd9706b03822840ec9588',1,'mpWindow']]],
-  ['drawaddedpoint_18',['DrawAddedPoint',['../classmpFXYVector.html#a51e61dfe04f3d86b8e1898ef629cbf68',1,'mpFXYVector']]],
-  ['drawboxzoom_19',['DrawBoxZoom',['../classmpWindow.html#a5dbecae416b2c33bf384296ce2486bd9',1,'mpWindow']]],
-  ['drawcontent_20',['drawcontent',['../classmpInfoCoords.html#a69ec780b9474e8ba5eefb434b2d48fbe',1,'mpInfoCoords::DrawContent()'],['../classmpInfoLegend.html#a5f00bcf8b255d1afbacd0ec1dc2660a9',1,'mpInfoLegend::DrawContent()']]],
-  ['drawcross_21',['DrawCross',['../classmpMagnet.html#a277247c0b8067cf2bf53142275d1ecbe',1,'mpMagnet']]],
-  ['drawdraggedseries_22',['DrawDraggedSeries',['../classmpInfoLegend.html#af4828771698613bd4c2fe88da5e55f0c',1,'mpInfoLegend']]],
-  ['drawscalename_23',['drawscalename',['../classmpScale.html#ab00b94e2566c1b55cf72ed8e519bc9bb',1,'mpScale::DrawScaleName()'],['../classmpScaleX.html#ac248dbbfd41bd54d606ca9e5a85b8766',1,'mpScaleX::DrawScaleName()'],['../classmpScaleY.html#ab7510bd1e17f058a30286ce6b0ef2d26',1,'mpScaleY::DrawScaleName()']]],
-  ['drawsymbol_24',['DrawSymbol',['../classmpFunction.html#adcb35a8363b69f6eff7106f349bcc99e',1,'mpFunction']]]
+  ['doubletotimestruct_16',['DoubleToTimeStruct',['../mathplot_8cpp.html#af54f49693b9a19ea4fb51b3d1b0358f0',1,'mathplot.cpp']]],
+  ['dozoomxcalc_17',['DoZoomXCalc',['../classmpWindow.html#a00a1f98272963e2880b9b77e417912a8',1,'mpWindow']]],
+  ['dozoomycalc_18',['DoZoomYCalc',['../classmpWindow.html#acec6d0ea8eabd9706b03822840ec9588',1,'mpWindow']]],
+  ['drawaddedpoint_19',['DrawAddedPoint',['../classmpFXYVector.html#a51e61dfe04f3d86b8e1898ef629cbf68',1,'mpFXYVector']]],
+  ['drawboxzoom_20',['DrawBoxZoom',['../classmpWindow.html#a5dbecae416b2c33bf384296ce2486bd9',1,'mpWindow']]],
+  ['drawcontent_21',['drawcontent',['../classmpInfoCoords.html#a69ec780b9474e8ba5eefb434b2d48fbe',1,'mpInfoCoords::DrawContent()'],['../classmpInfoLegend.html#a5f00bcf8b255d1afbacd0ec1dc2660a9',1,'mpInfoLegend::DrawContent()']]],
+  ['drawcross_22',['DrawCross',['../classmpMagnet.html#a277247c0b8067cf2bf53142275d1ecbe',1,'mpMagnet']]],
+  ['drawdraggedseries_23',['DrawDraggedSeries',['../classmpInfoLegend.html#af4828771698613bd4c2fe88da5e55f0c',1,'mpInfoLegend']]],
+  ['drawscalename_24',['drawscalename',['../classmpScale.html#ab00b94e2566c1b55cf72ed8e519bc9bb',1,'mpScale::DrawScaleName()'],['../classmpScaleX.html#ac248dbbfd41bd54d606ca9e5a85b8766',1,'mpScaleX::DrawScaleName()'],['../classmpScaleY.html#ab7510bd1e17f058a30286ce6b0ef2d26',1,'mpScaleY::DrawScaleName()']]],
+  ['drawsymbol_25',['DrawSymbol',['../classmpFunction.html#adcb35a8363b69f6eff7106f349bcc99e',1,'mpFunction']]]
 ];

@@ -94,6 +94,8 @@ Collaboration diagram for mpLayer:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9df4aff3de4eeb7663806bc89b973c98" id="r_a9df4aff3de4eeb7663806bc89b973c98"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmpLayer.html#a9df4aff3de4eeb7663806bc89b973c98">mpLayer</a> (<a class="el" href="mathplot_8h.html#a5dba29b7583413d9cb8b98a013628b21">mpLayerType</a> layerType)</td></tr>
 <tr class="separator:a9df4aff3de4eeb7663806bc89b973c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f63b285ccb8ec8642fab416f265272e" id="r_a4f63b285ccb8ec8642fab416f265272e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmpLayer.html#a4f63b285ccb8ec8642fab416f265272e">~mpLayer</a> ()</td></tr>
+<tr class="separator:a4f63b285ccb8ec8642fab416f265272e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6a6ab436a19fc1f9703338aeb45a9b3" id="r_ae6a6ab436a19fc1f9703338aeb45a9b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmpLayer.html#ae6a6ab436a19fc1f9703338aeb45a9b3">SetWindow</a> (<a class="el" href="classmpWindow.html">mpWindow</a> &amp;w)</td></tr>
 <tr class="separator:ae6a6ab436a19fc1f9703338aeb45a9b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accf17c5510e6d2fb21974b1cb8a0455e" id="r_accf17c5510e6d2fb21974b1cb8a0455e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmpLayer.html#accf17c5510e6d2fb21974b1cb8a0455e">HasBBox</a> ()</td></tr>
@@ -178,69 +180,53 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a7aa14bb2308c71f8369eb8dcb91be219" id="r_a7aa14bb2308c71f8369eb8dcb91be219"><td class="memItemLeft" align="right" valign="top"><a id="a7aa14bb2308c71f8369eb8dcb91be219" name="a7aa14bb2308c71f8369eb8dcb91be219"></a>
-const <a class="el" href="mathplot_8h.html#a5dba29b7583413d9cb8b98a013628b21">mpLayerType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_type</b></td></tr>
-<tr class="memdesc:a7aa14bb2308c71f8369eb8dcb91be219"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer type mpLAYER_*. <br /></td></tr>
+<tr class="memitem:a7aa14bb2308c71f8369eb8dcb91be219" id="r_a7aa14bb2308c71f8369eb8dcb91be219"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="mathplot_8h.html#a5dba29b7583413d9cb8b98a013628b21">mpLayerType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmpLayer.html#a7aa14bb2308c71f8369eb8dcb91be219">m_type</a></td></tr>
+<tr class="memdesc:a7aa14bb2308c71f8369eb8dcb91be219"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer type mpLAYER_*.  <br /></td></tr>
 <tr class="separator:a7aa14bb2308c71f8369eb8dcb91be219"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54ff30656749550679c0918f726c8a68" id="r_a54ff30656749550679c0918f726c8a68"><td class="memItemLeft" align="right" valign="top"><a id="a54ff30656749550679c0918f726c8a68" name="a54ff30656749550679c0918f726c8a68"></a>
-<a class="el" href="classmpWindow.html">mpWindow</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>m_win</b></td></tr>
-<tr class="memdesc:a54ff30656749550679c0918f726c8a68"><td class="mdescLeft">&#160;</td><td class="mdescRight">The wxWindow handle. <br /></td></tr>
+<tr class="memitem:a54ff30656749550679c0918f726c8a68" id="r_a54ff30656749550679c0918f726c8a68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmpWindow.html">mpWindow</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmpLayer.html#a54ff30656749550679c0918f726c8a68">m_win</a></td></tr>
+<tr class="memdesc:a54ff30656749550679c0918f726c8a68"><td class="mdescLeft">&#160;</td><td class="mdescRight">The wxWindow handle.  <br /></td></tr>
 <tr class="separator:a54ff30656749550679c0918f726c8a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e8775e2f781680bc662698b7e33d358" id="r_a7e8775e2f781680bc662698b7e33d358"><td class="memItemLeft" align="right" valign="top"><a id="a7e8775e2f781680bc662698b7e33d358" name="a7e8775e2f781680bc662698b7e33d358"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>m_subtype</b></td></tr>
-<tr class="memdesc:a7e8775e2f781680bc662698b7e33d358"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer sub type, set in constructors. <br /></td></tr>
+<tr class="memitem:a7e8775e2f781680bc662698b7e33d358" id="r_a7e8775e2f781680bc662698b7e33d358"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmpLayer.html#a7e8775e2f781680bc662698b7e33d358">m_subtype</a></td></tr>
+<tr class="memdesc:a7e8775e2f781680bc662698b7e33d358"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer sub type, set in constructors.  <br /></td></tr>
 <tr class="separator:a7e8775e2f781680bc662698b7e33d358"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b6acab5d04921f905df4bcdbfd334e1" id="r_a1b6acab5d04921f905df4bcdbfd334e1"><td class="memItemLeft" align="right" valign="top"><a id="a1b6acab5d04921f905df4bcdbfd334e1" name="a1b6acab5d04921f905df4bcdbfd334e1"></a>
-wxFont&#160;</td><td class="memItemRight" valign="bottom"><b>m_font</b></td></tr>
-<tr class="memdesc:a1b6acab5d04921f905df4bcdbfd334e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer's font. <br /></td></tr>
+<tr class="memitem:a1b6acab5d04921f905df4bcdbfd334e1" id="r_a1b6acab5d04921f905df4bcdbfd334e1"><td class="memItemLeft" align="right" valign="top">wxFont&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmpLayer.html#a1b6acab5d04921f905df4bcdbfd334e1">m_font</a></td></tr>
+<tr class="memdesc:a1b6acab5d04921f905df4bcdbfd334e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer's font.  <br /></td></tr>
 <tr class="separator:a1b6acab5d04921f905df4bcdbfd334e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a523515b6b9cecab18edc5e62641b33d1" id="r_a523515b6b9cecab18edc5e62641b33d1"><td class="memItemLeft" align="right" valign="top"><a id="a523515b6b9cecab18edc5e62641b33d1" name="a523515b6b9cecab18edc5e62641b33d1"></a>
-wxColour&#160;</td><td class="memItemRight" valign="bottom"><b>m_fontcolour</b></td></tr>
-<tr class="memdesc:a523515b6b9cecab18edc5e62641b33d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer's font foreground colour. <br /></td></tr>
+<tr class="memitem:a523515b6b9cecab18edc5e62641b33d1" id="r_a523515b6b9cecab18edc5e62641b33d1"><td class="memItemLeft" align="right" valign="top">wxColour&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmpLayer.html#a523515b6b9cecab18edc5e62641b33d1">m_fontcolour</a></td></tr>
+<tr class="memdesc:a523515b6b9cecab18edc5e62641b33d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer's font foreground colour.  <br /></td></tr>
 <tr class="separator:a523515b6b9cecab18edc5e62641b33d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad24283efc41df6b8f0d80030f0e6a56d" id="r_ad24283efc41df6b8f0d80030f0e6a56d"><td class="memItemLeft" align="right" valign="top"><a id="ad24283efc41df6b8f0d80030f0e6a56d" name="ad24283efc41df6b8f0d80030f0e6a56d"></a>
-wxPen&#160;</td><td class="memItemRight" valign="bottom"><b>m_pen</b></td></tr>
-<tr class="memdesc:ad24283efc41df6b8f0d80030f0e6a56d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer's pen. Default Colour = Black, width = 1, style = wxPENSTYLE_SOLID. <br /></td></tr>
+<tr class="memitem:ad24283efc41df6b8f0d80030f0e6a56d" id="r_ad24283efc41df6b8f0d80030f0e6a56d"><td class="memItemLeft" align="right" valign="top">wxPen&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmpLayer.html#ad24283efc41df6b8f0d80030f0e6a56d">m_pen</a></td></tr>
+<tr class="memdesc:ad24283efc41df6b8f0d80030f0e6a56d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer's pen. Default Colour = Black, width = 1, style = wxPENSTYLE_SOLID.  <br /></td></tr>
 <tr class="separator:ad24283efc41df6b8f0d80030f0e6a56d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3d0ae222700628378471709bc62f76c" id="r_ac3d0ae222700628378471709bc62f76c"><td class="memItemLeft" align="right" valign="top"><a id="ac3d0ae222700628378471709bc62f76c" name="ac3d0ae222700628378471709bc62f76c"></a>
-wxBrush&#160;</td><td class="memItemRight" valign="bottom"><b>m_brush</b></td></tr>
-<tr class="memdesc:ac3d0ae222700628378471709bc62f76c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer's brush. Default wxTRANSPARENT_BRUSH. <br /></td></tr>
+<tr class="memitem:ac3d0ae222700628378471709bc62f76c" id="r_ac3d0ae222700628378471709bc62f76c"><td class="memItemLeft" align="right" valign="top">wxBrush&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmpLayer.html#ac3d0ae222700628378471709bc62f76c">m_brush</a></td></tr>
+<tr class="memdesc:ac3d0ae222700628378471709bc62f76c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer's brush. Default wxTRANSPARENT_BRUSH.  <br /></td></tr>
 <tr class="separator:ac3d0ae222700628378471709bc62f76c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0894b3ff9ce5a82524256497599636c" id="r_ac0894b3ff9ce5a82524256497599636c"><td class="memItemLeft" align="right" valign="top"><a id="ac0894b3ff9ce5a82524256497599636c" name="ac0894b3ff9ce5a82524256497599636c"></a>
-wxString&#160;</td><td class="memItemRight" valign="bottom"><b>m_name</b></td></tr>
-<tr class="memdesc:ac0894b3ff9ce5a82524256497599636c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer's name. <br /></td></tr>
+<tr class="memitem:ac0894b3ff9ce5a82524256497599636c" id="r_ac0894b3ff9ce5a82524256497599636c"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmpLayer.html#ac0894b3ff9ce5a82524256497599636c">m_name</a></td></tr>
+<tr class="memdesc:ac0894b3ff9ce5a82524256497599636c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer's name.  <br /></td></tr>
 <tr class="separator:ac0894b3ff9ce5a82524256497599636c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a634c0423aad7ce8b908b9122952e5d5d" id="r_a634c0423aad7ce8b908b9122952e5d5d"><td class="memItemLeft" align="right" valign="top"><a id="a634c0423aad7ce8b908b9122952e5d5d" name="a634c0423aad7ce8b908b9122952e5d5d"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_showName</b></td></tr>
-<tr class="memdesc:a634c0423aad7ce8b908b9122952e5d5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">States whether the name of the layer must be shown. Default : false. <br /></td></tr>
+<tr class="memitem:a634c0423aad7ce8b908b9122952e5d5d" id="r_a634c0423aad7ce8b908b9122952e5d5d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmpLayer.html#a634c0423aad7ce8b908b9122952e5d5d">m_showName</a></td></tr>
+<tr class="memdesc:a634c0423aad7ce8b908b9122952e5d5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">States whether the name of the layer must be shown. Default : false.  <br /></td></tr>
 <tr class="separator:a634c0423aad7ce8b908b9122952e5d5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2254c13cc469d401eaa0833a3d4a4034" id="r_a2254c13cc469d401eaa0833a3d4a4034"><td class="memItemLeft" align="right" valign="top"><a id="a2254c13cc469d401eaa0833a3d4a4034" name="a2254c13cc469d401eaa0833a3d4a4034"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_drawOutsideMargins</b></td></tr>
-<tr class="memdesc:a2254c13cc469d401eaa0833a3d4a4034"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select if the layer should draw only inside margins or over all DC. Default : false. <br /></td></tr>
+<tr class="memitem:a2254c13cc469d401eaa0833a3d4a4034" id="r_a2254c13cc469d401eaa0833a3d4a4034"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmpLayer.html#a2254c13cc469d401eaa0833a3d4a4034">m_drawOutsideMargins</a></td></tr>
+<tr class="memdesc:a2254c13cc469d401eaa0833a3d4a4034"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select if the layer should draw only inside margins or over all DC. Default : false.  <br /></td></tr>
 <tr class="separator:a2254c13cc469d401eaa0833a3d4a4034"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6388b1d9d1480546c27d00eb989fe818" id="r_a6388b1d9d1480546c27d00eb989fe818"><td class="memItemLeft" align="right" valign="top"><a id="a6388b1d9d1480546c27d00eb989fe818" name="a6388b1d9d1480546c27d00eb989fe818"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_visible</b></td></tr>
-<tr class="memdesc:a6388b1d9d1480546c27d00eb989fe818"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggles layer visibility. Default : true. <br /></td></tr>
+<tr class="memitem:a6388b1d9d1480546c27d00eb989fe818" id="r_a6388b1d9d1480546c27d00eb989fe818"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmpLayer.html#a6388b1d9d1480546c27d00eb989fe818">m_visible</a></td></tr>
+<tr class="memdesc:a6388b1d9d1480546c27d00eb989fe818"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggles layer visibility. Default : true.  <br /></td></tr>
 <tr class="separator:a6388b1d9d1480546c27d00eb989fe818"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3ea60fa1be7315614cea3124e5d69c2" id="r_aa3ea60fa1be7315614cea3124e5d69c2"><td class="memItemLeft" align="right" valign="top"><a id="aa3ea60fa1be7315614cea3124e5d69c2" name="aa3ea60fa1be7315614cea3124e5d69c2"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_tractable</b></td></tr>
-<tr class="memdesc:aa3ea60fa1be7315614cea3124e5d69c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the layer tractable. <br /></td></tr>
+<tr class="memitem:aa3ea60fa1be7315614cea3124e5d69c2" id="r_aa3ea60fa1be7315614cea3124e5d69c2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmpLayer.html#aa3ea60fa1be7315614cea3124e5d69c2">m_tractable</a></td></tr>
+<tr class="memdesc:aa3ea60fa1be7315614cea3124e5d69c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the layer tractable.  <br /></td></tr>
 <tr class="separator:aa3ea60fa1be7315614cea3124e5d69c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab36829f686179b68375f181400329383" id="r_ab36829f686179b68375f181400329383"><td class="memItemLeft" align="right" valign="top"><a id="ab36829f686179b68375f181400329383" name="ab36829f686179b68375f181400329383"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>m_flags</b></td></tr>
-<tr class="memdesc:ab36829f686179b68375f181400329383"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds label alignment. Default : mpALIGN_SW for series and mpALIGN_CENTER for scale. <br /></td></tr>
+<tr class="memitem:ab36829f686179b68375f181400329383" id="r_ab36829f686179b68375f181400329383"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmpLayer.html#ab36829f686179b68375f181400329383">m_flags</a></td></tr>
+<tr class="memdesc:ab36829f686179b68375f181400329383"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds label alignment. Default : mpALIGN_SW for series and mpALIGN_CENTER for scale.  <br /></td></tr>
 <tr class="separator:ab36829f686179b68375f181400329383"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64a14a22b372feff804190f4da408eba" id="r_a64a14a22b372feff804190f4da408eba"><td class="memItemLeft" align="right" valign="top"><a id="a64a14a22b372feff804190f4da408eba" name="a64a14a22b372feff804190f4da408eba"></a>
-<a class="el" href="structmpRect.html">mpRect</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_plotBoundaries</b></td></tr>
-<tr class="memdesc:a64a14a22b372feff804190f4da408eba"><td class="mdescLeft">&#160;</td><td class="mdescRight">The boundaries for plotting curve calculated by <a class="el" href="classmpWindow.html">mpWindow</a>. <br /></td></tr>
+<tr class="memitem:a64a14a22b372feff804190f4da408eba" id="r_a64a14a22b372feff804190f4da408eba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmpRect.html">mpRect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmpLayer.html#a64a14a22b372feff804190f4da408eba">m_plotBoundaries</a></td></tr>
+<tr class="memdesc:a64a14a22b372feff804190f4da408eba"><td class="mdescLeft">&#160;</td><td class="mdescRight">The boundaries for plotting curve calculated by <a class="el" href="classmpWindow.html">mpWindow</a>.  <br /></td></tr>
 <tr class="separator:a64a14a22b372feff804190f4da408eba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62dea60b6a809330729ec11d41240481" id="r_a62dea60b6a809330729ec11d41240481"><td class="memItemLeft" align="right" valign="top"><a id="a62dea60b6a809330729ec11d41240481" name="a62dea60b6a809330729ec11d41240481"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_CanDelete</b></td></tr>
-<tr class="memdesc:a62dea60b6a809330729ec11d41240481"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the layer can be deleted. <br /></td></tr>
+<tr class="memitem:a62dea60b6a809330729ec11d41240481" id="r_a62dea60b6a809330729ec11d41240481"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmpLayer.html#a62dea60b6a809330729ec11d41240481">m_CanDelete</a></td></tr>
+<tr class="memdesc:a62dea60b6a809330729ec11d41240481"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the layer can be deleted.  <br /></td></tr>
 <tr class="separator:a62dea60b6a809330729ec11d41240481"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a166c7f930aa85c4e2de529c682a3fdd7" id="r_a166c7f930aa85c4e2de529c682a3fdd7"><td class="memItemLeft" align="right" valign="top"><a id="a166c7f930aa85c4e2de529c682a3fdd7" name="a166c7f930aa85c4e2de529c682a3fdd7"></a>
-<a class="el" href="mathplot_8h.html#a65d69935e2ff04b6a1425f5dd820d120">mpLayerZOrder</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_ZIndex</b></td></tr>
-<tr class="memdesc:a166c7f930aa85c4e2de529c682a3fdd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The index in Z-Order to draw the layer. <br /></td></tr>
+<tr class="memitem:a166c7f930aa85c4e2de529c682a3fdd7" id="r_a166c7f930aa85c4e2de529c682a3fdd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="mathplot_8h.html#a65d69935e2ff04b6a1425f5dd820d120">mpLayerZOrder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmpLayer.html#a166c7f930aa85c4e2de529c682a3fdd7">m_ZIndex</a></td></tr>
+<tr class="memdesc:a166c7f930aa85c4e2de529c682a3fdd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The index in Z-Order to draw the layer.  <br /></td></tr>
 <tr class="separator:a166c7f930aa85c4e2de529c682a3fdd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -269,6 +255,31 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_CanDelete</b></td><
   </dd>
 </dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="mathplot_8h.html#a5dba29b7583413d9cb8b98a013628b21" title="Major type of an mpLayer (detail is in subtype)">mpLayerType</a> </dd></dl>
+
+</div>
+</div>
+<a id="a4f63b285ccb8ec8642fab416f265272e" name="a4f63b285ccb8ec8642fab416f265272e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f63b285ccb8ec8642fab416f265272e">&#9670;&#160;</a></span>~mpLayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual mpLayer::~mpLayer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1482,9 +1493,394 @@ V ascending Y                               |
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac3d0ae222700628378471709bc62f76c" name="ac3d0ae222700628378471709bc62f76c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3d0ae222700628378471709bc62f76c">&#9670;&#160;</a></span>m_brush</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">wxBrush mpLayer::m_brush</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Layer's brush. Default wxTRANSPARENT_BRUSH. </p>
+
+</div>
+</div>
+<a id="a62dea60b6a809330729ec11d41240481" name="a62dea60b6a809330729ec11d41240481"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62dea60b6a809330729ec11d41240481">&#9670;&#160;</a></span>m_CanDelete</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mpLayer::m_CanDelete</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Is the layer can be deleted. </p>
+
+</div>
+</div>
+<a id="a2254c13cc469d401eaa0833a3d4a4034" name="a2254c13cc469d401eaa0833a3d4a4034"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2254c13cc469d401eaa0833a3d4a4034">&#9670;&#160;</a></span>m_drawOutsideMargins</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mpLayer::m_drawOutsideMargins</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Select if the layer should draw only inside margins or over all DC. Default : false. </p>
+
+</div>
+</div>
+<a id="ab36829f686179b68375f181400329383" name="ab36829f686179b68375f181400329383"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab36829f686179b68375f181400329383">&#9670;&#160;</a></span>m_flags</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mpLayer::m_flags</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Holds label alignment. Default : mpALIGN_SW for series and mpALIGN_CENTER for scale. </p>
+
+</div>
+</div>
+<a id="a1b6acab5d04921f905df4bcdbfd334e1" name="a1b6acab5d04921f905df4bcdbfd334e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b6acab5d04921f905df4bcdbfd334e1">&#9670;&#160;</a></span>m_font</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">wxFont mpLayer::m_font</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Layer's font. </p>
+
+</div>
+</div>
+<a id="a523515b6b9cecab18edc5e62641b33d1" name="a523515b6b9cecab18edc5e62641b33d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a523515b6b9cecab18edc5e62641b33d1">&#9670;&#160;</a></span>m_fontcolour</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">wxColour mpLayer::m_fontcolour</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Layer's font foreground colour. </p>
+
+</div>
+</div>
+<a id="ac0894b3ff9ce5a82524256497599636c" name="ac0894b3ff9ce5a82524256497599636c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0894b3ff9ce5a82524256497599636c">&#9670;&#160;</a></span>m_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">wxString mpLayer::m_name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Layer's name. </p>
+
+</div>
+</div>
+<a id="ad24283efc41df6b8f0d80030f0e6a56d" name="ad24283efc41df6b8f0d80030f0e6a56d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad24283efc41df6b8f0d80030f0e6a56d">&#9670;&#160;</a></span>m_pen</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">wxPen mpLayer::m_pen</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Layer's pen. Default Colour = Black, width = 1, style = wxPENSTYLE_SOLID. </p>
+
+</div>
+</div>
+<a id="a64a14a22b372feff804190f4da408eba" name="a64a14a22b372feff804190f4da408eba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64a14a22b372feff804190f4da408eba">&#9670;&#160;</a></span>m_plotBoundaries</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structmpRect.html">mpRect</a> mpLayer::m_plotBoundaries</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The boundaries for plotting curve calculated by <a class="el" href="classmpWindow.html">mpWindow</a>. </p>
+
+</div>
+</div>
+<a id="a634c0423aad7ce8b908b9122952e5d5d" name="a634c0423aad7ce8b908b9122952e5d5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a634c0423aad7ce8b908b9122952e5d5d">&#9670;&#160;</a></span>m_showName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mpLayer::m_showName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>States whether the name of the layer must be shown. Default : false. </p>
+
+</div>
+</div>
+<a id="a7e8775e2f781680bc662698b7e33d358" name="a7e8775e2f781680bc662698b7e33d358"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e8775e2f781680bc662698b7e33d358">&#9670;&#160;</a></span>m_subtype</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mpLayer::m_subtype</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Layer sub type, set in constructors. </p>
+
+</div>
+</div>
+<a id="aa3ea60fa1be7315614cea3124e5d69c2" name="aa3ea60fa1be7315614cea3124e5d69c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3ea60fa1be7315614cea3124e5d69c2">&#9670;&#160;</a></span>m_tractable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mpLayer::m_tractable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Is the layer tractable. </p>
+
+</div>
+</div>
+<a id="a7aa14bb2308c71f8369eb8dcb91be219" name="a7aa14bb2308c71f8369eb8dcb91be219"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aa14bb2308c71f8369eb8dcb91be219">&#9670;&#160;</a></span>m_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="mathplot_8h.html#a5dba29b7583413d9cb8b98a013628b21">mpLayerType</a> mpLayer::m_type</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Layer type mpLAYER_*. </p>
+
+</div>
+</div>
+<a id="a6388b1d9d1480546c27d00eb989fe818" name="a6388b1d9d1480546c27d00eb989fe818"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6388b1d9d1480546c27d00eb989fe818">&#9670;&#160;</a></span>m_visible</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mpLayer::m_visible</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Toggles layer visibility. Default : true. </p>
+
+</div>
+</div>
+<a id="a54ff30656749550679c0918f726c8a68" name="a54ff30656749550679c0918f726c8a68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54ff30656749550679c0918f726c8a68">&#9670;&#160;</a></span>m_win</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmpWindow.html">mpWindow</a>* mpLayer::m_win</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The wxWindow handle. </p>
+
+</div>
+</div>
+<a id="a166c7f930aa85c4e2de529c682a3fdd7" name="a166c7f930aa85c4e2de529c682a3fdd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a166c7f930aa85c4e2de529c682a3fdd7">&#9670;&#160;</a></span>m_ZIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="mathplot_8h.html#a65d69935e2ff04b6a1425f5dd820d120">mpLayerZOrder</a> mpLayer::m_ZIndex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The index in Z-Order to draw the layer. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>mathplot/<a class="el" href="mathplot_8h_source.html">mathplot.h</a></li>
-<li>mathplot/<b>mathplot.cpp</b></li>
+<li>mathplot/<a class="el" href="mathplot_8cpp.html">mathplot.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

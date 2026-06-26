@@ -139,7 +139,7 @@ var sectionId = 'dynsection-1';
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="406,-308 344,-308 344,-289 406,-289 406,-308"/>
+<polygon fill="white" stroke="#666666" points="406,-308 344,-308 344,-289 406,-289 406,-308"/>
 <text text-anchor="middle" x="375" y="-296" font-family="Helvetica,sans-Serif" font-size="10.00">wxObject</text>
 </a>
 </g>
@@ -176,7 +176,7 @@ var sectionId = 'dynsection-1';
 <g id="Node000005" class="node">
 <title>Node5</title>
 <g id="a_Node000005"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="70,-85 0,-85 0,-66 70,-66 70,-85"/>
+<polygon fill="white" stroke="#666666" points="70,-85 0,-85 0,-66 70,-66 70,-85"/>
 <text text-anchor="middle" x="35" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">wxWindow</text>
 </a>
 </g>
